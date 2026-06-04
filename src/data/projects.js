@@ -23,7 +23,7 @@ export const projectsData = [
     image: "/images/Mi-calculadora-ahorro.png",
     imageMobile: "/images/Mi-calculadora-ahorro.png",
     github: "https://github.com/Chris06ran/mi-calculadora-ahorro.git",
-    demo: "https://demo.com",
+    demo: "https://mi-calculadora-ahorro.vercel.app/",
     features: ["Arquitectura Modular y Limpia", "JavaScript Moderno (ES6+ a ES13)", "Visualización de Datos Dinámica"],
     highlight: false
   },
