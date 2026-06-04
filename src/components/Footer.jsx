@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="flex gap-5">
           {/* Ejemplo de icono social (puedes usar Lucide o simples SVGs) */}
           <a 
-            href="https://github.com" 
+            href="https://github.com/Chris06ran" 
             target="_blank" 
             rel="noreferrer"
             // 3. CAMBIO: El círculo del icono se adapta al fondo oscuro
@@ -46,7 +46,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="max-w-6xl mx-auto mt-12 pt-8 border-t border-slate-100 dark:border-slate-900 text-center">
         <p className="text-xs text-slate-400 dark:text-slate-600">
-          © {currentYear} Christopher. Todos los derechos reservados. Diseñado con ❤️ y React.
+          © {currentYear} Christian Franco. Todos los derechos reservados. Diseñado con ❤️ y React.
         </p>
       </div>
     </footer>
