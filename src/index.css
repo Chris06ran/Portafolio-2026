@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* 1. Configuración para Tailwind v4 para reconocer la clase .dark */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Opcional: Asegura que el fondo cambie suavemente */
+body {
+  @apply transition-colors duration-300;
+}
