@@ -1,8 +1,10 @@
 import React from 'react';
 
 const About = () => {
+  // SE ACTUALIZÓ ESTE ARREGLO PARA INCLUIR PHP Y PYTHON
   const skills = [
     { name: "Frontend", items: ["React", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3"] },
+    { name: "Backend", items: ["PHP", "Python"] }, // <--- Nueva sección estratégica
     { name: "Herramientas", items: ["Git", "GitHub", "Vercel", "Figma"] },
     { name: "En Crecimiento", items: ["Next.js", "TypeScript", "Node.js"] }
   ];
@@ -22,7 +24,7 @@ const About = () => {
               Como desarrollador junior, entiendo que mi mayor activo es mi **capacidad de aprendizaje**. Por ello, trato cada proyecto como un proceso de iteración, buscando activamente feedback para seguir evolucionando mis habilidades técnicas y organizativas.
             </p>
             
-            {/* 2. CAMBIO: Habilidades Blandas destacadas (Lineamiento Junior) */}
+            {/* Habilidades Blandas destacadas */}
             <div className="mt-8 bg-white dark:bg-slate-800 p-6 rounded-2xl border-l-4 border-indigo-500 shadow-sm dark:shadow-none transition-all">
               <h4 className="font-bold text-slate-900 dark:text-white mb-3">Habilidades y Valores</h4>
               <ul className="grid grid-cols-1 gap-3 text-sm">
@@ -71,7 +73,7 @@ const About = () => {
           </div>
           
           {/* Pie de tarjeta: Mensaje de Proyección */}
-          <div className="mt-10 pt-6 border-t border-slate-50 dark:border-slate-700 text-center text-xs text-slate-400 italic italic">
+          <div className="mt-10 pt-6 border-t border-slate-50 dark:border-slate-700 text-center text-xs text-slate-400 italic">
             "El aprendizaje es un proceso iterativo, no un destino final."
           </div>
         </div>
